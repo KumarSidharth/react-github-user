@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
+import '../node_modules/12-column-grid/src/grid.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
