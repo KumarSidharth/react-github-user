@@ -1,6 +1,6 @@
 $gap: 16px;
 
-header {
+header.Header {
     display: grid;
     grid-template-columns: auto 300px 1fr auto;
     gap: $gap;
@@ -12,6 +12,8 @@ header {
     color: var(--color-header-text);
     background-color: var(--color-header-bg);
 }
+
+.Header {
 
 form,
 input {
@@ -101,4 +103,6 @@ li {
         aspect-ratio: auto 20 / 20;
         margin-right: 2px;
     }
+}
+
 }

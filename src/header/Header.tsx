@@ -7,7 +7,7 @@ interface IHeaderProps {
 
 const Header: React.FC<IHeaderProps> = ({imageURL}: IHeaderProps) => {
     return (
-    <header>
+    <header className="Header">
         <a href="https://github.com/">
             <svg
                 className="octicon"
